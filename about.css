@@ -1,0 +1,77 @@
+/*Shortcut is ctrl + ? for comments*/
+
+/* This is the start of my navbar */
+
+*{
+    margin:0;
+    padding:0;
+}
+
+
+nav{
+    height:60px;
+    width:100%;
+    background-color: #6b8e23;
+}
+
+.logo{
+    float:left;
+}
+
+img{
+    float:left;
+    margin:px;
+}
+
+
+nav ul{
+    float:right;
+}
+
+nav ul li{
+    display:inline-block;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 12px 10px 20px 20px;
+    font-size: 30px;
+}
+
+nav ul li a{
+color:black;
+font-weight: bolder;
+text-decoration: none;
+text-transform: uppercase;
+}
+
+nav ul li a:hover{
+    color:goldenrod
+}
+
+section{
+    width:100%;
+    height: 700px;
+    background-image: url('/img/Picsart_22-06-22_18-22-59-529.jpg');
+    background-size:contain;
+    background-repeat: repeat;
+    background-position: center;
+}
+
+div{
+    width: 40%;
+    height: 200px;
+    background-image: url(/img/buffalo\ ranch.jpg);
+    border: 5px solid #000;
+    position: fixed;
+    top: 30%;
+    right:30%;
+}
+
+aside{
+    float:right;
+}
+
+.color-text{
+    color:#000;
+    text-align:center;
+    font-weight: bold;
+}
